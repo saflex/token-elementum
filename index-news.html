@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+      type="text/css" media="all">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs/animate.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kurale|Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet"></head>
+<body>
+
+  <style>
+  
+.video-area {
+    position: absolute;
+    top: 306px;
+    left: 50%;
+    min-width: 300px;
+    height: 640px !important;
+    width: 1335px !important;
+    margin-left: -663px;
+    margin-top: -306px;
+}
+
+@media screen and (max-width: 1699px)
+{
+video {
+    top: 245px !important;
+
+}
+
+}
+
+video {
+    position: absolute;
+    top: 306px;
+    left: 50%;
+    min-width: 300px;
+    height: 800px !important;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+    opacity: 0.6;
+    width: 1335px !important;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+@media screen and (max-width: 1199px) {
+  body {
+    background: #000 !important;
+    background-size: cover;
+}
+}
+</style>
+  <div class="bg-stars"></div>
+
+  <div class="wrapper">
+    <div class="content">
+
+      <div id="preloader">
+        <div id="status">
+          <!-- Loader 7 -->
+          <svg version="1.1" id="L7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+            <path fill="#d8d8d8" d="M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
+  c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z">
+              <animateTransform 
+         attributeName="transform" 
+         attributeType="XML" 
+         type="rotate"
+         dur="2s" 
+         from="0 50 50"
+         to="360 50 50" 
+         repeatCount="indefinite" />
+            </path>
+            <path fill="#d8d8d8" d="M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7
+  c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z">
+              <animateTransform 
+         attributeName="transform" 
+         attributeType="XML" 
+         type="rotate"
+         dur="1s" 
+         from="0 50 50"
+         to="-360 50 50" 
+         repeatCount="indefinite" />
+            </path>
+            <path fill="#d8d8d8" d="M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5
+  L82,35.7z">
+              <animateTransform 
+         attributeName="transform" 
+         attributeType="XML" 
+         type="rotate"
+         dur="2s" 
+         from="0 50 50"
+         to="360 50 50" 
+         repeatCount="indefinite" />
+            </path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="canvas-content">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png">
+              <span>Elementum</span>
+            </a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="index2.html">Главная</a>
+              </li>
+              <li class="hvr-bounce-to-right">
+                <a href="token.html">Wallet</a>
+              </li>
+              <li class="hvr-bounce-to-right">
+                <a href="index-news.html">Participant</a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="profile-ns hvr-pulse">
+            Профиль <i aria-hidden="true" class="fa fa-sign-out"></i>
+          </div>
+        </div>
+
+        <div class="container-row">
+          <div class="container">
+
+            <div class="bon-st slrs wow zoomInLeft" data-wow-duration="4.6s">
+              <a href="index2.html"> <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                НАЗАД
+              </a>
+              Participant
+            </div>
+
+            <div class="video-ns">
+              <div class="scroller-b news-scroll scrl">
+                <div class="news-area">
+                  <div class="cks-area">
+                    <div class="hh-area">
+                      <i class="fa fa-check" aria-hidden="true"></i>
+                      On checking
+                    </div>
+                    <div class="block-info">
+                      <span> <strong class="flk">1</strong>
+                      </span>
+                      <span>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        Name <strong>www.alses.com</strong>
+                      </span>
+                      <span>
+                        Category
+                        <strong>Food</strong>
+                      </span>
+                      <span class="w50">
+                        Descrypt
+                        <strong>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</strong> 
+                      </span>
+                      <span>
+                        Enterprise value (EV)
+                        <strong>100000$</strong>
+                      </span>
+                      <span>
+                        Sale of shares
+                        <strong>50%</strong>
+                      </span>
+                      <span>
+                        Equity tokens
+                        <strong>10000000DGC</strong>
+                      </span>
+                      <span>
+                        Estimated Token Price
+                        <strong>0,01$</strong>
+                      </span>
+                      <span>
+                        Voiting
+                        <strong>Yes</strong>
+                      </span>
+
+                      <a href="#demo" class="btn btn-info dmns" data-toggle="collapse">Reporting</a>
+                      <div id="demo" class="collapse">
+                        <div class="tkns">
+                          <span>
+                            N
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Date
+                            <strong>12.01.12</strong>
+                          </span>
+                          <span>
+                            Sales Tokens
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Share capital
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends per share
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Company profit
+                            <strong>Name</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="block-info">
+                      <span>
+                        <strong class="flk">2</strong>
+                      </span>
+                      <span>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        Name
+                        <strong>www.alses.com</strong>
+                      </span>
+                      <span>
+                        Category
+                        <strong>Food</strong>
+                      </span>
+                      <span class="w50">
+                        Descrypt
+                        <strong>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</strong> 
+                      </span>
+                      <span>
+                        Enterprise value (EV)
+                        <strong>100000$</strong>
+                      </span>
+                      <span>
+                        Sale of shares
+                        <strong>50%</strong>
+                      </span>
+                      <span>
+                        Equity tokens
+                        <strong>10000000DGC</strong>
+                      </span>
+                      <span>
+                        Estimated Token Price
+                        <strong>0,01$</strong>
+                      </span>
+                      <span>
+                        Voiting
+                        <strong>Yes</strong>
+                      </span>
+
+                      <a href="#demo2" class="btn btn-info dmns" data-toggle="collapse">Reporting</a>
+                      <div id="demo2" class="collapse">
+                        <div class="tkns">
+                          <span>
+                            N
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Date
+                            <strong>12.01.12</strong>
+                          </span>
+                          <span>
+                            Sales Tokens
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Share capital
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends per share
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Company profit
+                            <strong>Name</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+ <div class="block-info">
+                      <span>
+                        <strong class="flk">3</strong>
+                      </span>
+                      <span>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        Name
+                        <strong>www.alses.com</strong>
+                      </span>
+                      <span>
+                        Category
+                        <strong>Food</strong>
+                      </span>
+                      <span class="w50">
+                        Descrypt
+                        <strong>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</strong> 
+                      </span>
+                      <span>
+                        Enterprise value (EV)
+                        <strong>100000$</strong>
+                      </span>
+                      <span>
+                        Sale of shares
+                        <strong>50%</strong>
+                      </span>
+                      <span>
+                        Equity tokens
+                        <strong>10000000DGC</strong>
+                      </span>
+                      <span>
+                        Estimated Token Price
+                        <strong>0,01$</strong>
+                      </span>
+                      <span>
+                        Voiting
+                        <strong>Yes</strong>
+                      </span>
+
+                      <a href="#demo3" class="btn btn-info dmns" data-toggle="collapse">Reporting</a>
+                      <div id="demo3" class="collapse">
+                        <div class="tkns">
+                          <span>
+                            N
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Date
+                            <strong>12.01.12</strong>
+                          </span>
+                          <span>
+                            Sales Tokens
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Share capital
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends per share
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Company profit
+                            <strong>Name</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+                  </div>
+
+                </div>
+
+              </div>
+
+<br><br>
+              <div class="cks-area sfdf">
+                    <div class="hh-area">
+                      <i class="fa fa-check" aria-hidden="true"></i>
+                   Applicants for participation
+                    </div>
+                    <div class="block-info">
+                      <span> <strong class="flk">1</strong>
+                      </span>
+                      <span>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        Name <strong>www.alses.com</strong>
+                      </span>
+                      <span>
+                        Category
+                        <strong>Food</strong>
+                      </span>
+                      <span class="w50">
+                        Descrypt
+                        <strong>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</strong> 
+                      </span>
+                      <span>
+                        Enterprise value (EV)
+                        <strong>100000$</strong>
+                      </span>
+                      <span>
+                        Sale of shares
+                        <strong>50%</strong>
+                      </span>
+                      <span>
+                        Equity tokens
+                        <strong>10000000DGC</strong>
+                      </span>
+                      <span>
+                        Estimated Token Price
+                        <strong>0,01$</strong>
+                      </span>
+                      <span>
+                        Voiting
+                        <strong>Yes</strong>
+                      </span>
+
+                      <a href="#demos" class="btn btn-info dmns" data-toggle="collapse">Reporting</a>
+                      <div id="demos" class="collapse">
+                        <div class="tkns">
+                          <span>
+                            N
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Date
+                            <strong>12.01.12</strong>
+                          </span>
+                          <span>
+                            Sales Tokens
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Share capital
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends per share
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Company profit
+                            <strong>Name</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+
+    <div class="cks-area sfdf">
+                    <div class="hh-area">
+                      <i class="fa fa-check" aria-hidden="true"></i>
+                    Active participant 
+                    </div>
+                    <div class="block-info">
+                      <span> <strong class="flk">1</strong>
+                      </span>
+                      <span>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        Name <strong>www.alses.com</strong>
+                      </span>
+                      <span>
+                        Category
+                        <strong>Food</strong>
+                      </span>
+                      <span class="w50">
+                        Descrypt
+                        <strong>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</strong> 
+                      </span>
+                      <span>
+                        Enterprise value (EV)
+                        <strong>100000$</strong>
+                      </span>
+                      <span>
+                        Sale of shares
+                        <strong>50%</strong>
+                      </span>
+                      <span>
+                        Equity tokens
+                        <strong>10000000DGC</strong>
+                      </span>
+                      <span>
+                        Estimated Token Price
+                        <strong>0,01$</strong>
+                      </span>
+                      <span>
+                        Voiting
+                        <strong>Yes</strong>
+                      </span>
+
+                      <a href="#demq" class="btn btn-info dmns" data-toggle="collapse">Reporting</a>
+                      <div id="demq" class="collapse">
+                        <div class="tkns">
+                          <span>
+                            N
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Date
+                            <strong>12.01.12</strong>
+                          </span>
+                          <span>
+                            Sales Tokens
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Share capital
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Dividends per share
+                            <strong>Name</strong>
+                          </span>
+                          <span>
+                            Company profit
+                            <strong>Name</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div id="canvas" class="gradient"></div>
+
+    <section class="canvas-wrap"></section>
+
+  </div>
+
+  <div class="footer ffs">
+    <ul>
+      <li>
+        <a href="#" class="soc1 hvr-pulse"></a>
+        <li>
+          <li>
+            <a href="#" class="soc2 hvr-pulse"></a>
+            <li>
+              <li>
+                <a href="#" class="soc3 hvr-pulse"></a>
+                <li>
+                  <li>
+                    <a href="#" class="soc4 hvr-pulse"></a>
+                    <li>
+                      <li>
+                        <a href="#" class="soc5 hvr-pulse"></a>
+                        <li>
+                          <li>
+                            <a href="#" class="soc6 hvr-pulse"></a>
+                            <li></ul>
+                            <div class="clearfix"></div>
+                            <span>© 2017 все права защищиены</span>
+                          </div>
+
+                          <script src="js/3d-lines-animation.js"></script>
+
+                          <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+                          <script src="js/bootstrap.js"></script>
+
+                          <script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+                          <script src="dist/wow.js"></script>
+                          <!-- Preloader -->
+                          <script type="text/javascript">
+    //<![CDATA[
+    $(window).load(function () { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({'overflow': 'visible'});
+    })
+    //]]>
+    
+    
+    $(document).ready(function () {
+              $(".navbar-toggle").on("click", function () {
+                    $(this).toggleClass("active");
+              });
+        });
+        
+        
+          wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+    
+    
+</script>
+
+                          <script>
+  
+    
+    $(".scroller-b").mCustomScrollbar({
+          axis:"y",     
+          autoDraggerLength:false,
+        
+        }); 
+        
+        
+        
+  $(function(){
+    $('.hvs1 a').click(function(){
+        $('.kr-1').addClass( "sw-active-no" );  
+        $('.podbl').addClass( "sw-active-no" ); 
+        $('.col-nx').addClass( "sw-active-no" );
+        $('.hvs3').addClass( "seae" ); 
+         $('.hvs4').addClass( "seae" );
+        $('.kr-2').addClass( "kks" );  
+        $('.kr-2').addClass( "animateds" ); 
+        $('.pos-cn').addClass( "animateds-aa" );    
+        $('.krv-1').addClass( "shows" ); 
+        $('.krv-2').removeClass( "shows" );  
+        $('.krv-3').removeClass( "shows" );  
+        $('.krv-4').removeClass( "shows" );   
+         $('.video-area').addClass( "hide-video" ); 
+         
+        
+    });
+});   
+        
+    $(function(){
+    $('.hvs2 a').click(function(){
+        $('.kr-1').addClass( "sw-active-no" );  
+        $('.podbl').addClass( "sw-active-no" ); 
+        $('.col-nx').addClass( "sw-active-no" );
+         $('.hvs3').addClass( "seae" ); 
+         $('.hvs4').addClass( "seae" );
+        $('.kr-2').addClass( "kks" );  
+        $('.kr-2').addClass( "animateds" );
+        $('.pos-cn').addClass( "animateds-aa" ); 
+        $('.kr-2').addClass( "animateds-rotate1" );    
+        $('.krv-2').addClass( "shows" ); 
+        $('.krv-1').removeClass( "shows" );  
+        $('.krv-3').removeClass( "shows" );  
+        $('.krv-4').removeClass( "shows" );   
+          $('.video-area').addClass( "hide-video" );    
+    });
+});   
+    
+    
+    
+      $(function(){
+    $('.hvs3 a').click(function(){
+        $('.kr-1').addClass( "sw-active-no" );  
+        $('.podbl').addClass( "sw-active-no" ); 
+        $('.col-nx').addClass( "sw-active-no" );
+         $('.hvs3').addClass( "seae" ); 
+         $('.hvs4').addClass( "seae" );
+        $('.kr-2').addClass( "kks" );  
+        $('.kr-2').addClass( "animateds" );  
+        $('.pos-cn').addClass( "animateds-aa" ); 
+        $('.kr-2').addClass( "animateds-rotate2" );   
+        $('.krv-3').addClass( "shows" ); 
+        $('.krv-1').removeClass( "shows" );  
+        $('.krv-2').removeClass( "shows" );  
+        $('.krv-4').removeClass( "shows" ); 
+          $('.video-area').addClass( "hide-video" );        
+    });
+});   
+      
+      
+      
+          $(function(){
+    $('.hvs4 a').click(function(){
+        $('.kr-1').addClass( "sw-active-no" );  
+        $('.podbl').addClass( "sw-active-no" ); 
+        $('.col-nx').addClass( "sw-active-no" );
+        $('.hvs3').addClass( "seae" ); 
+         $('.hvs4').addClass( "seae" );
+        $('.kr-2').addClass( "kks" );  
+        $('.pos-cn').addClass( "animateds-aa" ); 
+        $('.kr-2').addClass( "animateds" );    
+        $('.kr-2').addClass( "animateds-rotate3" ); 
+       $('.krv-4').addClass( "shows" ); 
+        $('.krv-1').removeClass( "shows" );  
+        $('.krv-3').removeClass( "shows" );  
+        $('.krv-2').removeClass( "shows" ); 
+         $('.video-area').addClass( "hide-video" );     
+    });
+});   
+    
+    
+    
+        
+          $(function(){
+    $('.kr-2').click(function(){
+        $('.kr-1').removeClass( "sw-active-no" );  
+        $('.podbl').removeClass( "sw-active-no" ); 
+        $('.col-nx').removeClass( "sw-active-no" );
+        $('.hvs3').removeClass( "seae" ); 
+         $('.hvs4').removeClass( "seae" );
+        $('.kr-2').removeClass( "kks" );  
+        $('.kr-2').removeClass( "animateds" );    
+       $('.krv-4').removeClass( "shows" ); 
+        $('.krv-1').removeClass( "shows" );  
+        $('.krv-3').removeClass( "shows" );  
+        $('.krv-2').removeClass( "shows" );   
+        $('.kr-2').removeClass( "animateds-rotate1" );  
+         $('.kr-2').removeClass( "animateds-rotate2" );  
+         $('.pos-cn').removeClass( "animateds-aa" ); 
+          $('.video-area').removeClass( "hide-video" ); 
+          $('.kr-2').removeClass( "animateds-rotate3" );   
+    });
+});   
+            
+  </script>
+
+                          <style>
+    canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.sw-active-no {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    
+
+}
+
+.hide-video{
+  display: none !important;
+}
+
+.hvs3.seae {
+    top: 135px;
+}
+
+.hvs4.seae {
+    top: 135px;
+}
+
+
+.kr-2.kks {
+    background-size: cover !important;
+ height: 200px !important;
+}
+
+.krv-2, .krv-1, .krv-3, .krv-4{
+  display: none;
+}
+
+.kr-2{
+cursor: pointer;  
+}
+
+
+.txt-blocks {
+    z-index: 22;
+}
+
+.kr-2.animateds{
+   z-index: 11;
+}
+
+.shows
+{
+    display: block;
+    -webkit-animation: fadeInFromNone 4.5s ease-out;
+    -moz-animation: fadeInFromNone 4.5s ease-out;
+    -o-animation: fadeInFromNone 4.5s ease-out;
+    animation: fadeInFromNone 4.5s ease-out;
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.content.shows .scroller-b {
+    max-height: 320px;
+}
+
+
+@media screen and (max-width: 1199px) { 
+.kr-2.kks {
+    background-size: cover !important;
+    height: 150px !important;
+}
+
+
+.txt-blocks{
+  display: none;
+}
+}
+.txt-blocks a{
+  transition: 3s; 
+}
+
+.txt-blocks a:hover{
+  color: #1c57a4 !important;
+}
+
+.kr-2.animateds {
+    z-index: 11;
+    position: relative;
+}
+.kr-2.kks {
+    background-size: 200% 200% !important;
+    height: 200px !important;
+    width: 193px;
+    background-position: center top;
+    display: block !important;
+}
+
+.bon-st {
+    color: #d8d8d8;
+    z-index: 11;
+    position: absolute;
+    top: 4px !important;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 38px;
+}
+
+
+@media screen and (max-width: 1199px) { 
+.bon-st {
+    color: #d8d8d8;
+    z-index: 11;
+    position: absolute;
+    top: -255px !important;
+    text-align: center;
+    left: -31px;
+    right: 0;
+    font-size: 27px;
+}
+}
+
+@media screen and (min-width: 1700px) { 
+.col-sm-6 {
+    margin-top: 63px;
+}
+
+.column-l {
+    clear: both;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.tok-fr {
+    font-size: 39px;
+    margin-top: -15px;
+    text-align: center;
+    color: #0A8290;
+}
+}
+
+@media (min-width: 768px)  and (max-width: 991px) { 
+.col-sm-6.pos-cn {
+    float: none;
+    position: relative !important;
+    margin: 0 auto;
+    clear: both;
+    margin-top: 30px !important;
+}
+
+.col-sm-12.col-md-3:first-child {
+    margin-bottom: 97px;
+}
+
+.col-sm-12.col-md-3:last-child {
+    margin-top: 177px;
+}
+
+}
+
+@media (min-width: 1200px){
+  .video-area {
+    border-radius: 10000px !important;
+    overflow: hidden;
+-webkit-box-shadow: inset -10px -5px 172px 153px rgba(0,0,0,0.93);
+-moz-box-shadow: inset -10px -5px 172px 153px rgba(0,0,0,0.93);
+box-shadow: inset -10px -5px 172px 153px rgba(0,0,0,0.93);
+}
+.footer ul a {
+    width: 35px;
+}
+}
+body {
+    background: #000 !important;
+}
+
+
+.tok-fr a {
+    color: #0A8290;
+    text-decoration: none !important;
+}
+
+.tok-fr a:hover{
+  color: #fff !important;
+}
+
+a {
+    transition: 2s;
+}
+.tok-fr.fghs {
+    font-size: 28px;
+    line-height: 27px;
+}
+
+@media (min-width: 1300px){
+.container-row .container {
+    width: 1275px !important;
+}
+.hvs4{
+    left: 440px;
+
+}
+.col-sm-12.col-md-3.mdl-l, .col-sm-12.col-md-3.mdl-r {
+    margin-top: 8px;
+}
+}
+.tok-fr.fghs {
+    margin-top: 23px;
+}
+a.walls {
+    color: #fff;
+    text-decoration: none;
+}
+@media (min-width: 1200px){
+.col-sm-12.col-md-3.mdl-r, .col-sm-12.col-md-3.mdl-l {
+    margin-top: 84px !important;
+}
+}
+
+
+
+
+
+
+
+
+/*! CSS Used from: https://gnosis.pm/resources/default/css/main.css */
+
+.cf:after{clear:both;}
+
+.cf{zoom:1;}
+.cf:after,.cf:before{content:"";display:table;}
+@media (max-width:767px){
+.m-all{float:left;padding:0 2.8rem;width:100%;}
+}
+@media (min-width:768px) and (max-width:1023px){
+.t-all{float:left;padding:0 2.8rem;}
+.t-all{width:100%;}
+}
+@media (min-width:1024px){
+.d-all{float:left;padding:0 2.8rem;}
+.d-all{width:100%;}
+}
+::-webkit-input-placeholder{color:rgba(8,98,117,.4);}
+:-moz-placeholder{color:rgba(8,98,117,.4);}
+::-moz-placeholder{color:rgba(8,98,117,.4);}
+:-ms-input-placeholder{color:rgba(8,98,117,.4);}
+.btn-blue{display:inline-block;background-color:transparent;position:relative;font-family:montserratregular,sans-serif;font-weight:400;font-size:20px;line-height:1.4;letter-spacing:.04em;text-decoration:none;white-space:normal;text-align:center;margin:0;padding:0;border-radius:0;border:none;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.btn-blue:disabled{cursor:not-allowed;}
+.btn-blue:focus,.btn-blue:hover{text-decoration:none;outline:0!important;}
+.btn-blue:active{top:1px;}
+@media only screen and (max-width:767px){
+.btn-blue{font-size:16px;}
+}
+.btn-blue{color:#00a6c4!important;}
+.btn-blue{-webkit-transition:all .2s linear;-o-transition:all .2s linear;padding:7px 24px;}
+.btn-blue{border:2px solid rgba(8,98,117,.4);border-radius:9999px;transition:all .2s linear;}
+.btn-blue:focus,.btn-blue:hover{border-color:#00a6c4;color:#00a6c4!important;}
+.btn-blue:active{border-color:rgba(0,166,196,.5);-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125);}
+.btn-blue:disabled,.btn-blue:disabled:active,.btn-blue:disabled:focus,.btn-blue:disabled:hover{border-color:rgba(8,98,117,.4)!important;color:#007b91!important;}
+h2{font-family:montserratlight,sans-serif;}
+a,a:visited{text-decoration:none;color:#87949c;-webkit-transition:color .2s linear;-o-transition:color .2s linear;transition:color .2s linear;}
+a:focus,a:hover,a:visited:focus,a:visited:hover{color:#00a6c4;text-decoration:none;}
+a:link,a:visited:link{-webkit-tap-highlight-color:#00a6c4;}
+p{margin:0 0 1.44em;-ms-word-wrap:normal;word-break:keep-all;word-wrap:normal;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;-webkit-hyphenate-before:2;-webkit-hyphenate-after:3;hyphenate-lines:3;-webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";font-feature-settings:"liga","dlig";}
+h2{text-rendering:optimizelegibility;margin:0 0 1em;line-height:1;}
+h2{font-size:5rem;}
+.timeline .year .items,.timeline .year .items .item .box .content .portraits{-webkit-box-orient:horizontal;-webkit-box-direction:normal;}
+.timeline{min-height:100vh;}
+.page .title{font-family:montserrathairline,sans-serif;font-weight:400;}
+.page .title{font-size:8rem;}
+.page .title{text-align:center;text-transform:uppercase;color:#5ba0cf;}
+.page .title{margin:0 0 5rem;}
+.timeline .year .name{font-family:montserratlight,sans-serif;}
+.timeline{position:relative;margin:1rem 0 8rem;}
+.timeline .center-line{position:absolute;top:0;left:50%;z-index:10;height:100%;width:2px;-webkit-transform:translateX(-1px);-ms-transform:translateX(-1px);-o-transform:translateX(-1px);transform:translateX(-1px);background-color:#0A818F;}
+.timeline .year{position:relative;z-index:20;}
+.timeline .year .name{font-size:4rem;color:#0A818F;text-align:center;background-color:#182a36;}
+.timeline .year .items{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.timeline .year .items .item-empty{-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%;height:1px;}
+.timeline .year .items .item{position:relative;-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%;margin:5rem 0 0;}
+.timeline .year .items .item:first-child{margin-top:3.4rem;}
+.timeline .year .items .item:nth-child(2){margin-top:7rem;}
+.timeline .year .items .item:last-child{margin-bottom:2rem;}
+.timeline .year .items .item:before{content:'';position:absolute;z-index:20;top:-webkit-calc(1.8rem + 7px);top:calc(1.8rem + 7px);width:8px;height:8px;border:2px solid #0A818F;border-radius:9999px;background-color:#182a36;}
+.timeline .year .items .item.right{margin-left:auto;padding:0 0 0 7rem;}
+.timeline .year .items .item.right:before{left:-6px;}
+.timeline .year .items .item.right .date{left:6px;}
+.timeline .year .items .item.right .date:before{left:-2px;right:-1px;}
+.timeline .year .items .item.right .date:after{right:-2px;}
+.timeline .year .items .item.left{margin-right:auto;padding:0 7rem 0 0;}
+.timeline .year .items .item.left:before{right:-6px;}
+.timeline .year .items .item.left .date{right:6px;}
+.timeline .year .items .item.left .date:before{right:-2px;left:-1px;}
+.timeline .year .items .item.left .date:after{left:-2px;}
+.timeline .year .items .item.full{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;}
+.timeline .year .items .item.full:before{display:none;}
+.timeline .year .items .item.token-launch{margin-top:4rem;}
+.timeline .year .items .item.token-launch .box{padding:4rem 0;}
+.timeline .year .items .item.token-launch .box .title{text-align:center;font-size:4rem;line-height:4.4rem;color:#0A818F;padding:0;}
+.timeline .year .items .item .box .content,.timeline .year .items .item .box .title,.timeline .year .items .item .date{font-family:montserratlight,sans-serif;}
+.timeline .year .items .item .date{position:absolute;z-index:10;top:-webkit-calc(1.8rem + 4px);top:calc(1.8rem + 4px);font-size:14px;line-height:18px;color:#0A818F;width:-webkit-calc(7rem - 6px);width:calc(7rem - 6px);text-align:center;}
+.timeline .year .items .item .date span{position:relative;z-index:20;display:inline-block;background-color:#182a36;padding:0 4px;}
+.timeline .year .items .item .date:after,.timeline .year .items .item .date:before{background-color:#0A818F;content:'';position:absolute;}
+.timeline .year .items .item .date:before{z-index:10;top:50%;height:2px;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);}
+.timeline .year .items .item .date:after{top:-6px;bottom:-6px;width:2px;}
+.timeline .year .items .item .box{background-color:#182a36;border:2px solid #29485d;}
+.timeline .year .items .item .box .title{text-transform:uppercase;font-size:18px;line-height:24px;color:#e8e8e8;padding:1.8rem 1.8rem 1.2rem;margin:0;letter-spacing:.02em;text-align:left;}
+.timeline .year .items .item .box .title .eth-icon{display:inline-block;vertical-align:middle;background:url(https://gnosis.pm/resources/default/img/timeline/eth-icon.png) center left no-repeat;-webkit-background-size:13px 20px;background-size:13px 20px;width:22px;height:24px;}
+.timeline .year .items .item .box .content{font-size:16px;line-height:20px;color:#a6a6a6;padding:0 1.8rem 1.8rem;letter-spacing:.02em;}
+.timeline .year .items .item .box .content :last-child{margin-bottom:0;}
+.timeline .year .items .item .box .content .portraits{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}
+.timeline .year .items .item .box .content .portraits .portrait{max-width:120px;width:33.33%;padding:0 20px 0 0;}
+.timeline .year .items .item .box .content .portraits .portrait img{display:block;width:100%;height:auto;}
+.timeline .year:last-child .item:last-child:after{content:'';position:absolute;z-index:10;top:-webkit-calc(1.8rem + 7px);top:calc(1.8rem + 7px);left:-2px;bottom:0;width:4px;background-color:#182a36;}
+.wrap{max-width:1008px;width:100%;margin:0 auto;}
+@media only screen and (max-width:767px){
+.timeline{min-height:100vh;}
+.page .title{margin:0 0 4rem;}
+.timeline .year .items .item.left,.timeline .year .items .item.right{padding:0;}
+.timeline{position:relative;margin:3rem 0 8rem;}
+.timeline .year{position:relative;z-index:20;}
+.timeline .year .name{position:relative;font-size:30px;}
+.timeline .year .items{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.timeline .year .items .item-empty,.timeline .year .items .item.full:before,.timeline .year .items .item:before{display:none;}
+.timeline .year .items .item{position:relative;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;margin:3.6rem 0!important;}
+.timeline .year .items .item:first-child{margin-top:3.4rem;}
+.timeline .year .items .item:nth-child(2){margin-top:7rem;}
+.timeline .year .items .item:last-child{margin-bottom:2rem;}
+.timeline .year .items .item.right .date{left:6px;}
+.timeline .year .items .item.right .date:before{left:-2px;right:-1px;}
+.timeline .year .items .item.right .date:after{right:-2px;}
+.timeline .year .items .item.left .date{right:auto;left:6px;}
+.timeline .year .items .item.left .date:before{left:-2px;right:-1px;}
+.timeline .year .items .item.left .date:after{left:auto;right:-2px;}
+.timeline .year .items .item.full{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;}
+.timeline .year .items .item.token-launch{margin:40px 0 40px -4px!important;}
+.timeline .year .items .item.token-launch .box{padding:4rem 0;}
+.timeline .year .items .item.token-launch .box .title{font-size:30px;}
+.timeline .year .items .item .date{position:relative;z-index:10;top:auto!important;left:auto!important;bottom:auto!important;right:auto!important;width:100%;padding:0 0 10px;text-align:center;}
+.timeline .year .items .item .date span{position:relative;z-index:20;display:block;background-color:#182a36;padding:0 4px;line-height:22px;}
+.timeline .year .items .item .date:after,.timeline .year .items .item .date:before,.timeline .year:last-child .item:last-child:after{display:none;}
+.timeline .year .items .item .box .title{font-size:16px;line-height:22px;}
+.timeline .year .items .item .box .content{font-size:14px;line-height:18px;}
+.timeline .year:last-child .item:last-child{margin-bottom:0!important;}
+}
+
+
+@media (max-width:767px){
+.col-sm-6.pos-cn.animateds-aa {
+    margin-bottom: 219px;
+}
+
+.col-sm-6.pos-cn.animateds-aa .content.shows {
+    margin-top: 25px;
+}
+}
+@media (min-width:1200px){
+.footer.ffs {
+    position: relative;
+}
+}
+  </style>
+
+                          <script>
+  var vid = document.getElementById("bgvid");
+var pauseButton = document.querySelector("#polina button");
+
+if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    vid.removeAttribute("autoplay");
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+}
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function()
+{
+// only functional if "loop" is removed 
+vid.pause();
+// to capture IE10
+vidFade();
+}); 
+
+
+pauseButton.addEventListener("click", function() {
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+})
+
+
+</script>
+
+</body>
+                        </html>
