@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="plugins/CustomScrollbarr/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kurale|Roboto:300,300i,400,400i,500,500i,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="video-area">
+        <video class="hidden-xs hidden-md hidden-sm" id="bgvid" playsinline autoplay muted loop>
+            <source src="video/etherium2.0_1_1.webm" type="video/webm">
+            <source src="video/etherium2.0_1_1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="wrapper">
+        <div class="content">
+            <div id="preloader">
+                <div id="status">
+                    <!-- Loader 7 -->
+                    <svg version="1.1" id="L7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                        <path fill="#d8d8d8" d="M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
+  c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z">
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="2s" from="0 50 50" to="360 50 50" repeatCount="indefinite" />
+                        </path>
+                        <path fill="#d8d8d8" d="M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7
+  c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z">
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="1s" from="0 50 50" to="-360 50 50" repeatCount="indefinite" />
+                        </path>
+                        <path fill="#d8d8d8" d="M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5
+  L82,35.7z">
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="2s" from="0 50 50" to="360 50 50" repeatCount="indefinite" />
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="canvas-content">
+                <div class="navbar navbar-inverse">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="img/logo.png"><span>Elementum</span></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li class="hvr-bounce-to-right">
+                                <a href="token.html">Wallet</a>
+                            </li>
+                            <li class="hvr-bounce-to-right">
+                                <a href="index-news.html">Participant</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-row">
+                    <div class="container">
+                        <div class="col-sm-12 col-md-3 mdl-l">
+                            <div class="column-l wow fadeInLeft" data-wow-duration="6s">
+                                <div class="tok-fr">
+                                    11111 Tok
+                                </div>
+                                <div class="column-l-inner-1">
+                                    <div class="txt-im-bl">
+                                        <a href="index-news.html" class="walls">
+                                            Participant</a></div>
+                                </div>
+                                <div class="column-l-inner-1">
+                                    <div class="txt-im-bl">
+                                        Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта.</div>
+                                </div>
+                                <div class="column-l-inner-1">
+                                    <div class="txt-im-bl">
+                                        <h3>Видео</h3>
+                                        <hr>
+                                        <iframe width="490" height="320" src=http://www.youtube.com/embed/ItvsDMMDNPE frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pos-cn">
+                            <div class="col-nx kr-2s">
+                            </div>
+                            <div class="inner-zm">
+                                <div class="kr-1"></div>
+                                <div style="display: none;" class="kr-2 wow fadeInDown" data-wow-duration="6s"></div>
+                            </div>
+                            <div class="txt-blocks">
+                                <div class="bon-st wow zoomInLeft" data-wow-duration="7.6s">ELEMENTUM</div>
+                                <div class="hvs1 wow fadeInLeft" data-wow-duration="4.6s">
+                                    <div class="disp-flex"><a class="">Roadmap</a></div>
+                                </div>
+                                <div class="hvs2 wow fadeInLeft" data-wow-duration="4.6s">
+                                    <div class="disp-flex"><a class="">Team</a></div>
+                                </div>
+                                <div class="hvs3 wow fadeInLeft" data-wow-duration="7.6s">
+                                    <div class="disp-flex"><a class="">Press</a></div>
+                                </div>
+                                <div class="hvs4 wow fadeInRight" data-wow-duration="7.6s">
+                                    <div class="disp-flex"><a class="">About</a></div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="content krv-1">
+                                <div class="scroller-b">
+                                    <h2>Roadmap</h2>
+                                    <div class="wrap cf">
+                                        <div class="d-all t-all m-all">
+                                            <div class="content">
+                                                <div class="timeline">
+                                                    <div class="center-line"></div>
+                                                    <div class="year">
+                                                        <div class="name">2013</div>
+                                                        <div class="items cf">
+                                                            <div class="item right">
+                                                                <div class="date"><span>Jun</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">The Beginnings</h2>
+                                                                    <div class="content">
+                                                                        <p>Founders Martin Köppelmann and Stefan George meet at University and soon create the largest Bitcoin Prediction Market.</p>
+                                                                        <div class="portraits">
+                                                                            <div class="portrait">
+                                                                            </div>
+                                                                            <div class="portrait">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="year">
+                                                        <div class="name">2014</div>
+                                                        <div class="items cf">
+                                                            <div class="item left">
+                                                                <div class="date"><span>JAN</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title"><span class="eth-icon"></span>Ethereum is born</h2>
+                                                                    <div class="content">
+                                                                        <p>Ethereum whitepaper is released describing a blockchain mechanism allowing for decentralized platforms like Gnosis prediction markets.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right">
+                                                                <div class="date"><span>Dec</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Consensys is Founded</h2>
+                                                                    <div class="content">
+                                                                        <p>ConsenSys is founded by Joseph Lubin, co-founder of Ethereum, to develop applications for decentralized ecosystems.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="year">
+                                                        <div class="name">2015</div>
+                                                        <div class="items cf">
+                                                            <div class="item left">
+                                                                <div class="date"><span>Jan</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        <a href="https://consensys.net/ventures/spokes/" target="_blank">
+                                                                            Gnosis &amp; ConsenSys
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>Gnosis is founded by Martin Köppelmann and Stefan George. The team joins ConsenSys as a first spoke. Proof of concept development starts.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right">
+                                                                <div class="date"><span>JUL</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title"><span class="eth-icon"></span>Frontier goes live</h2>
+                                                                    <div class="content">
+                                                                        <p>Ethereum releases first proof of concept, Frontier, and the genesis block is created.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left">
+                                                                <div class="date">
+                                                                    <span>
+                                                                        AUG
+                                                                    </span>
+                                                                </div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        <a href="https://www.reddit.com/r/ethereum/comments/3i9i8m/groupgnosis_prediction_market_is_live_trading_has/">
+                                                                            Gnosis PoC1
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            An alpha version of Gnosis launches just a week after Frontier goes live as the first major DApp on Ethereum.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-empty">
+                                                            </div>
+                                                            <div class="item right">
+                                                                <div class="date"><span>Nov</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        Devcon 1 in London
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>Gnosis is presented for the first time publicly on stage to the Ethereum developer community.</p>
+                                                                        <p><a id="devcon1-play-btn" href="#" class="btn-blue">Video</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="year">
+                                                        <div class="name">2016</div>
+                                                        <div class="items cf">
+                                                            <div class="item left">
+                                                                <div class="date"><span>Jan</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">The Team Grows…</h2>
+                                                                    <div class="content">
+                                                                        <p>Denis Granha joins the development team and Matt Liston (who previously founded Augur) joins Gnosis as Chief Strategist.</p>
+                                                                        <div class="portraits">
+                                                                            <div class="portrait">
+                                                                            </div>
+                                                                            <div class="portrait">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right">
+                                                                <div class="date"><span>MAR</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        <a href="https://forum.gnosis.pm/t/an-introduction-to-cryptoeconomics-and-futarchy-experiments-on-gnosis/161" target="_blank">
+                                                                            Gnosis receives dev grant
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>Gnosis receives dev grant to do research on the decentralized governance model Futarchy. </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left">
+                                                                <div class="date"><span>AUG</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        Gnosis PoC2
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>Gnosis releases the
+                                                                            <a href="https://admin.gnosis.pm/#/market-list">
+                                                                                second proof of concept,
+                                                                            </a>
+                                                                            which includes a gnosis.js developer library to allow third parties to easily build on Gnosis.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin-top: 10rem;">
+                                                                <div class="date"><span>SEP</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        Devcon 2 in Shanghai
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>Gnosis is presented to a wide range of multinational developers and investors.</p>
+                                                                        <p><a id="devcon2-play-btn" href="#" class="btn-blue">Video</a></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left" style="margin-top: 10rem;">
+                                                                <div class="date"><span>DEC</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        Bug bounty
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>Start of
+                                                                            <a href="https://blog.gnosis.pm/gnosis-bug-bounty-program-ce568bf4b65c" target="_blank">
+                                                                                bug bounty program
+                                                                            </a>
+                                                                            for token launch relevant smart contracts to ensure a successful and safe token auction.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="year">
+                                                        <div class="name">2017</div>
+                                                        <div class="items cf">
+                                                            <div class="item left">
+                                                                <div class="date"><span>JAN</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">The team grows</h2>
+                                                                    <div class="content">
+                                                                        <p>Alan Lu joins the team to develop models and algorithms for market making. Giacomo Licari joins to support DevOps and full-stack development.</p>
+                                                                        <div class="portraits">
+                                                                            <div class="portrait">
+                                                                            </div>
+                                                                            <div class="portrait">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right">
+                                                                <div class="date"><span>MAR</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Gnosis LTD is created</h2>
+                                                                    <div class="content">
+                                                                        <p>Martin and Stefan travel to Gibraltar to establish the <a href="https://twitter.com/gnosisPM/status/847209793433583616" target="_blank">Gnosis LTD</a>.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left">
+                                                                <div class="date">
+                                                                    <span>
+                                                                        APR
+                                                                    </span>
+                                                                </div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        Token Auction
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            The Token Auction was successfully completed on April 24th, providing us with funding for the next stage of Gnosis development.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin-top: 10rem;">
+                                                                <div class="date"><span>APR</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Additional office in Berlin</h2>
+                                                                    <div class="content">
+                                                                        <p>Parts of the team began working in Berlin out of the ETHDEV office. As our team in Berlin grows, we will seek additional office space.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item full token-launch">
+                                                                <div class="box">
+                                                                    <h2 class="title">Roadmap</h2>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left" style="margin-top: 10rem">
+                                                                <div class="date"><span>Q2</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">gnosis.js beta &amp; smart contracts beta</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            <a href="https://github.com/ConsenSys/gnosis.js/">
+                                                                                gnosis.js
+                                                                            </a>
+                                                                            is an easy-to-use tool to enable every website developer to build applications on top of Gnosis. gnosis.js will integrate with redesigned, more modular smart contracts and GnosisDB as only backend.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin-top: 15rem">
+                                                                <div class="date"><span>Q2</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Gnosis management interface beta</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            A new interface to create and maintain markets is in the making, giving Gnosis a modern look and intuitive and productive user experience. The interface will offer a light version providing all functionalities needed to get started as well as an advanced interface to get the most out of the functionalities offered by Gnosis.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left" style="margin-top: 1rem">
+                                                                <div class="date"><span>Q2</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">GnosisDB alpha</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            Storage of data on a blockchain is very expensive. The blockchain should only be used to verify the accuracy of information. GnosisDB is a generic database layer combining cheap storage with the advantage of fast document search and retrieval.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right">
+                                                                <div class="date"><span>Q3</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        <a ng-href="https://admin.gnosis.pm/#/market/0xd1d8badf830edba8f6af747fc5c2ee1d54d9e9a3a7f1ea64e585b94ad475c066/0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5/0x0c5a084d130c24555c22a4aa4baf69923fd6be2c8a4d4798db60c6a65728181a" target="_blank" class="ng-binding" href="https://admin.gnosis.pm/#/market/0xd1d8badf830edba8f6af747fc5c2ee1d54d9e9a3a7f1ea64e585b94ad475c066/0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5/0x0c5a084d130c24555c22a4aa4baf69923fd6be2c8a4d4798db60c6a65728181a">
+                                                                            Gnosis Hackathon (63.52%)
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>Gnosis will host a hackathon to support developers building apps on top of Gnosis.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left" style="margin: 3rem 0 0;">
+                                                                <div class="date"><span>Q3</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">RealityKeys oracle integration</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            <a href="https://www.realitykeys.com/" target="_blank">
+                                                                                RealityKeys
+                                                                            </a>
+                                                                            will be the first external oracle provider integrated into Gnosis. The RealityKeys service provides automated and human-verified data designed to enable a new generation of automated information services.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin: 6rem 0 0;">
+                                                                <div class="date"><span>Q3</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        <a ng-href="https://admin.gnosis.pm/#/market/0x246ebdddf9afe5762e5951b8e5e542a6ba8e3bc61f9bd77636f18ade4a7e752f/0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5/0x874e17caf9bb816a88712172f48268d99da6377218f73c897573eec15322141f" target="_blank" class="ng-binding" href="https://admin.gnosis.pm/#/market/0x246ebdddf9afe5762e5951b8e5e542a6ba8e3bc61f9bd77636f18ade4a7e752f/0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5/0x874e17caf9bb816a88712172f48268d99da6377218f73c897573eec15322141f">
+                                                                            CryptoEconomic experiments (72.52%)
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            Thanks to a generous
+                                                                            <a href="https://www.reddit.com/r/ethereum/comments/453sid/empirical_cryptoeconomics/" target="_blank">
+                                                                                grant
+                                                                            </a>
+                                                                            from the Ethereum foundation, Gnosis will be running a series of experiments to test the viability of Futarchy.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left" style="margin: 4rem 0 0;">
+                                                                <div class="date"><span>Q3</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Oraclize integration</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            <a href="http://www.oraclize.it/" target="_blank">
+                                                                                Oraclize
+                                                                            </a>
+                                                                            will be the second external oracle provider to be integrated into Gnosis. Oraclize aims to be the privileged data gateway between blockchain protocols and the world wide web. Oraclize’s main goal is to provide a way for smart contracts to break free of their constraints and provide them with the ability to access all the data they need from the web without compromising their trustless nature.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin: 8rem 0 0;">
+                                                                <div class="date"><span>Q4</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">
+                                                                        <a ng-href="https://admin.gnosis.pm/#/market/0x935ba14229ddb28b9eb0330a7a0fdc7cd0547357b3deb4d163073e24fb6b5403/0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5/0xed17d884ba8751e7ebda1ae71e74b8294896b5da2abafa52e58727e6ac8e0736" target="_blank" class="ng-binding" href="https://admin.gnosis.pm/#/market/0x935ba14229ddb28b9eb0330a7a0fdc7cd0547357b3deb4d163073e24fb6b5403/0x6ca7f214ab2ddbb9a8e1a1e2c8550e3164e9dba5/0xed17d884ba8751e7ebda1ae71e74b8294896b5da2abafa52e58727e6ac8e0736">
+                                                                            Gnosis AMA DApp with Twitter integration (65.11%)
+                                                                        </a>
+                                                                    </h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            The first end user facing application will target the blockchain audience. Gnosis AMA (ask me anything) DApp allows anyone to ask the market for an estimate: “When will Ethereum switch to Proof of Stake”, “Will Bitcoin hardfork?”. A Twitter bot integration will make it possible to participate by tweeting.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left" style="margin: 6rem 0 0;">
+                                                                <div class="date"><span>Q4</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">GNO/WIZ functionality</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            Together with the first end user facing application we will enable the WIZ functionality for paying fees.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin: 9rem 0 0;">
+                                                                <div class="date"><span>Q4</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">On-chain exchange as price oracle</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            As part of offering WIZ functionality, a newly designed market maker will be deployed. This market maker can serve as a universal price oracle for tokens and will enable using WIZ to pay fees for markets traded in any ERC20 token.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="year">
+                                                        <div class="name">2018</div>
+                                                        <div class="items cf">
+                                                            <div class="item left">
+                                                                <div class="date"><span>Q1</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">GNODEX alpha</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            GNODEX will be the decentralized, scalable state channel based exchange to trade predictive assets. The development already
+                                                                            <a href="https://blog.gnosis.pm/building-a-decentralized-exchange-in-ethereum-eea4e7452d6e" target="_blank">
+                                                                                started,
+                                                                            </a>
+                                                                            however, due to its complexity it is expected that an MVP will take at least a year of development. Gnosis seeks to combine forces with other teams to build the basic layers required to offer a decentralized exchange, with Gnosis adding layers required to offer trading of prediction market outcomes.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right">
+                                                                <div class="date"><span>Q1</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Futarchy DAO alpha</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            Gnosis will build a tool to create DAOs that only use prediction markets to make decisions. The concept was popularized under the name
+                                                                            <a href="https://en.wikipedia.org/wiki/Futarchy" target="_blank">
+                                                                                Futarchy
+                                                                            </a>
+                                                                            by our advisor Robin Hanson. Futarchy DAOs will measure the market reaction of a decision. The DAO will only make decisions if the market would react friendly to it.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left">
+                                                                <div class="date"><span>Q1</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Gnosis trading interface alpha</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            The generic Gnosis interface does not meet the requirements for a trading application. For this reason Gnosis is working on an additional interface dedicated to traders. Gnosis will combine the best parts of existent trading interfaces from Kraken, Poloniex and other trading platforms to provide a seamless user experience.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin: 25rem 0 0;">
+                                                                <div class="date"><span>Q2</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Gnosis desktop standalone client alpha</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            Gnosis will offer a standalone application based on Electron, which will come with IPFS and an Ethereum light client integration. It will allow a fully decentralized prediction market service ensuring that Gnosis prediction markets can be used from anywhere in the world.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item left" style="margin: -10rem 0 0;">
+                                                                <div class="date"><span>Q2</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">One other Gnosis DApp</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            It is the core concept of Gnosis to enable third parties to develop prediction market applications on top of Gnosis. To accelerate platform adoption, the Gnosis team will develop DApps directly as well. Which application areas we choose to work on will be based on our own business development research and coordinated with outside teams that decide to build on Gnosis.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item right" style="margin: 20rem 0 0;">
+                                                                <div class="date"><span>Q3</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Gnosis mobile standalone client alpha</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            As mobile becomes the dominating platform for application users, Gnosis seeks to have dedicated applications for Android and iOS. Based on the popular Status.IM client, Gnosis will provide fully decentralized prediction markets on mobile.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item-empty"></div>
+                                                            <div class="item right" style="margin: 4rem 0 0;">
+                                                                <div class="date"><span>Q3</span></div>
+                                                                <div class="box">
+                                                                    <h2 class="title">Gnosis DApp Store</h2>
+                                                                    <div class="content">
+                                                                        <p>
+                                                                            Gnosis will integrate a DApp store into the standalone apps for desktop and mobile to promote apps.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content krv-2">
+                                <div class="scroller-b">
+                                    <h2>Team</h2>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                </div>
+                            </div>
+                            <div class="content krv-3">
+                                <div class="scroller-b">
+                                    <h2>Press</h2>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                </div>
+                            </div>
+                            <div class="content krv-4">
+                                <div class="scroller-b">
+                                    <h2>About</h2>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                    <p> Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Текст, который помогает вашему потенциальному клиенту принять взвешенное решение в пользу вашей компании или конкретного продукта. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3 mdl-r">
+                            <div class="column-l wow fadeInRight" data-wow-duration="6s">
+                                <div class="tok-fr">
+                                    <a href="https://github.com" target="_blank">Github</a>
+                                </div>
+                                <div class="column-r-inner-1">
+                                    <div class="txt-im-bl">
+                                        <a href="token.html" class="walls"><i class="fa fa-link" aria-hidden="true"></i> Wallet</a></div>
+                                </div>
+                                <div class="column-r-inner-1">
+                                    <div class="txt-im-bl">
+                                        <h3>Чат</h3>
+                                        <hr>
+                                        <div class="scroller-b">
+                                            <p>Напишите в чат</p>
+                                            <div class="row">
+                                                <div class="col-md-12 col-xs-12">
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">Мастер</span>
+                                                        : пусть говорят что хотят
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">Мастер</span>
+                                                        : новость новую видел?? Там про тебя пишут
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">sos@f1</span>
+                                                        : ?
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">sos@f1</span>
+                                                        : я ж в чате
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">Мастер</span>
+                                                        : пусть говорят что хотят
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">Мастер</span>
+                                                        : новость новую видел?? Там про тебя пишут
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">sos@f1</span>
+                                                        : ?
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">sos@f1</span>
+                                                        : я ж в чате
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">Мастер</span>
+                                                        : пусть говорят что хотят
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">Мастер</span>
+                                                        : новость новую видел?? Там про тебя пишут
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">sos@f1</span>
+                                                        : ?
+                                                    </div>
+                                                    <div class="chatMessage">
+                                                        <div class="chatTime" title="28.11.2016 02:15:12">02:15</div>
+                                                        <span class="chatUserFrom">sos@f1</span>
+                                                        : я ж в чате
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h5>В чате 2 чел.</h5>
+                                                    <div class="user-chat">
+                                                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                                        alex-my-chat</div>
+                                                    <div class="user-chat">
+                                                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                                        shprottt</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <form action="">
+                                            <textarea name="" id="" class="txta form-control" placeholder="Введите сообщение..."></textarea>
+                                            <button class="ntbt">
+                                                <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="tok-fr fghs">
+                                    <a href="pdf.pdf" target="_blank">Whitepaper</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="canvas" class="gradient"></div>
+            <section class="canvas-wrap">
+            </section>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="#" class="soc1 hvr-pulse"></a>
+                <li>
+                <li><a href="#" class="soc2 hvr-pulse"></a>
+                <li>
+                <li><a href="#" class="soc3 hvr-pulse"></a>
+                <li>
+                <li><a href="#" class="soc4 hvr-pulse"></a>
+                <li>
+                <li><a href="#" class="soc5 hvr-pulse"></a>
+                <li>
+                <li><a href="#" class="soc6 hvr-pulse"></a>
+                <li>
+            </ul>
+            <div class="clearfix"></div>
+            <span>© 2017 все права защищиены</span>
+        </div>
+    </div>
+    <script src="js/3d-lines-animation.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="plugins/CustomScrollbarr/jquery.mCustomScrollbar.js"></script>
+    <script src="js/wow.js"></script>
+    <!-- Preloader -->
+</body>
+
+</html>
